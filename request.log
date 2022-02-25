@@ -1,0 +1,4 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hst-api.wialon.com:443
+DEBUG:urllib3.connectionpool:https://hst-api.wialon.com:443 "GET /wialon/ajax.html?svc=token/login&sid=&params=%7B%22token%22%3A%224ce2721753a2ba37492c16677e988dcd55A431A2F4B1553E845919C866BD03A85F427EFB%22%2C%22operateAs%22%3A%22%22%2C%22appName%22%3A%22%22%2C%22checkService%22%3A%22%22%7D&sid= HTTP/1.1" 200 9405
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hst-api.wialon.com:443
+DEBUG:urllib3.connectionpool:https://hst-api.wialon.com:443 "GET /wialon/ajax.html?svc=core/update_data_flags&sid=09d91e4768845d250eb32b6c8342e0a8&params=%7B%22spec%22%3A%5B%7B%22type%22%3A%22type%22%2C%22data%22%3A%22avl_unit%22%2C%22flags%22%3A4294967295%2C%22mode%22%3A0%7D%5D%7D&sid=09d91e4768845d250eb32b6c8342e0a8 HTTP/1.1" 200 5484230

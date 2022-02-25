@@ -39,7 +39,7 @@ def requestApiWialon(peticion):
     
     extraerTeltonikaFM130(resInfo=resInfo)
     extraerTeltonikaFM3612(resInfo=resInfo)
-    actualizarJsonPeticion(arrayForm)
+    #actualizarJsonPeticion(arrayForm)
     print('...............................Generando Excel ...............................')
     df = pd.DataFrame(arrayForm, columns = ['ID','UNIDAD', 'ICCID', 'IMEI'])
     now = datetime.today().strftime('%Y_%m_%d__%H_%M_%S')
